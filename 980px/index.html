@@ -12,35 +12,45 @@
 <body>
 
   <header id="masthead">
-    <div class="container">
       <a href="index.html" id="logo">John Rotte</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
+      <nav class="nav nav-tabs" id="myTab" role="tablist">
+        <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="index.html" role="tab" aria-controls="nav-home" aria-selected="true">Home</a>
+        <a class="" id="nav-profile-tab" data-toggle="tab" href="portfolio.html" role="tab" aria-controls="nav-profile" aria-selected="false">Profile</a>
+        <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="contact.html" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</a>
       </nav>
-    </div>
+      <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">...</div>
+        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">...</div>
+        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
+      </div>
   </header>
 
   <div id="main-container" class="container">
     <section class="main-section">
-      <h1>About Me</h1>
+      <h1>Overview</h1>
 
       <img src="assets/images/John.jpg" class="auth-image" alt="Your Name">
+       
+      <br>
+      <br>
 
-      <p>Marshmallow jelly souffl&eacute; pastry biscuit gummi bears tootsie roll tootsie roll gingerbread. Cotton candy muffin gingerbread fruitcake. Sweet roll souffl&eacute; topping wafer croissant oat cake gummi&nbsp;bears.</p>
+      <p>John attended The Ohio State University as an honors student and received a BSBA in Finance upon graduation.</p>
 
-      <p>Jelly-o cheesecake dessert fruitcake ice cream brownie liquorice souffl&eacute;. Caramels biscuit gummi bears tiramisu chupa chups. Croissant macaroon cotton candy cake pudding.</p>
+      <p>Prior to diving into the tech industry and enrolling at Northwestern University, John worked in both aerospace and investment management after college.</p> 
+
+      <p>Such opportunities have afforded him the ability to work in a variety of capacities all over the U.S. and internationally among great teams and cultures.</p>
+
+      <p>Outside of his passion for technology and innovation, some of John's favorite pastimes include hiking, running, and cooking (which is still a work in progress). </p>
 
     </section>
 
     <section class="sidebar">
       <div id="connect">
-        <h2>Connect with Me</h2>
+        <h2>Let's Connect!</h2>
 
-        <a href="#"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
-        <a href="#"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
-        <a href="#"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
+        <a href="https://github.com/jrotte"><img src="assets/images/github-128.png" class="img-fluid" alt="GitHub" /></a>
+        <a href="https://linkedin.com/in/johnrotte"><img src="assets/images/linkedin-128.png" class="img-fluid" alt="LinkedIn" /></a>
+        <a href="https://stackexchange.com/users/12207882/john-rotte"><img src="assets/images/stackoverflow-128.png" class="img-fluid" alt="Stack Overflow" /></a>
       </div>
     </section>
   </div>
